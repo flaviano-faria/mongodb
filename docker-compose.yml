@@ -1,0 +1,16 @@
+#mongosh to start mongodb
+version: '3'
+
+services:
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    restart: always
+    ports:
+      - "27019:27019"
+    environment:
+      - MONGO_INIT_DB_ROOT_USERNAME=root
+      - MONGO_INIT_DB_ROOT_PASSWORD=example
+
+    
