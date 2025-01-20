@@ -22,6 +22,10 @@ use \<database_name\>
 
 Insert document in database:
 db.\<database_name\>.insert({"id":"21334"})
+example: db.user.insertOne({"document":"123456","name": "John","age":35})
+
+to get all objects:
+db.<db_name>.find()
 
 Droping database:
 
