@@ -32,3 +32,6 @@ Droping database:
 use \<database_name\>
 db.dropDatabase()
 
+filter documents by specific field:
+ db.user.find({document:'122334343'})
+
