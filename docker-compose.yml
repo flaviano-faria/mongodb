@@ -8,9 +8,9 @@ services:
     container_name: mongo
     restart: always
     ports:
-      - "27019:27019"
+      - "27017:27017"
     environment:
-      - MONGO_INIT_DB_ROOT_USERNAME=root
-      - MONGO_INIT_DB_ROOT_PASSWORD=example
+      - MONGO_INIT_DB_ROOT_USERNAME=admin
+      - MONGO_INIT_DB_ROOT_PASSWORD=admin
 
     
