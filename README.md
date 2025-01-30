@@ -35,3 +35,7 @@ db.dropDatabase()
 filter documents by specific field:<br/>
  db.user.find({document:'122334343'})
 
+ MongoDB Compass:
+
+ Filter all collection documents: \{\}
+
