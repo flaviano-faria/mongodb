@@ -37,5 +37,6 @@ filter documents by specific field:<br/>
 
  MongoDB Compass:
 
- Filter all collection documents: \{\}
+- Filter all collection documents: \{\}
+- Filter documents that contains "status" field equals "D": \{ status: "D" \}
 
