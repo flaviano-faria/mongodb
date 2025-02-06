@@ -43,4 +43,4 @@ Filter all documents:
 - Filter all collection documents: \{\}
 - Filter documents that contains "status" field equals "D": \{ status: "D" \}
 - Filter documents that document field is equals '32678456385' or '32678443285'
-- {$or:[ {document: '32678456385'},{ document: '32678443285'}]}
+    {$or:[ {document: '32678456385'},{ document: '32678443285'}]}
