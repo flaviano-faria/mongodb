@@ -45,5 +45,5 @@ Filter all documents:
 - Filter documents that document field is equals '32678456385' or '32678443285': <br/>
     {$or:[ {document: '32678456385'},{ document: '32678443285'}]}
 
-- Filter documents equals '32678456385' or '21348456543':
+- Filter documents equals '32678456385' or '21348456543':<br/>
     { document: { $in: [ '32678456385','21348456543'] } }
