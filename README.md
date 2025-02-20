@@ -47,3 +47,8 @@ Filter all documents:
 
 - Filter documents equals '32678456385' or '21348456543':<br/>
     { document: { $in: [ '32678456385','21348456543'] } }
+
+- Filter documents where qty > 75: \{qty:\{$gt:75\}\}
+
+- ![image](https://github.com/user-attachments/assets/e3785a7d-8bb9-46f9-847e-02659d2a516e)
+
