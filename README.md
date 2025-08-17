@@ -28,10 +28,14 @@ example: db.user.insertOne({"document":"123456","name": "John","age":35})
 to get all objects:
 db.<db_name>.find()
 
-Droping database:
+Dropping database:
 
 use \<database_name\>
 db.dropDatabase()
+
+Dropping collection:
+db.COLLECTION_NAME.drop()
+
 
 filter documents by specific field:<br/>
  db.user.find({document:'122334343'})
