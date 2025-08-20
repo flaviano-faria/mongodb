@@ -33,6 +33,9 @@ Dropping database:
 use \<database_name\>
 db.dropDatabase()
 
+create collection:
+db.createCollection("col")
+
 Dropping collection:
 db.COLLECTION_NAME.drop()
 
